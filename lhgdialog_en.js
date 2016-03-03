@@ -1,7 +1,6 @@
 ﻿/*!
- * lhgcore Dialog Plugin v4.2.1
- * lhgcore Dialog Plugin For English
- * Date: 2016-02-03 10:55:11 
+ * lhgcore Dialog Plugin v4.2.0
+ * Date: 2012-04-19 10:55:11 
  * http://code.google.com/p/lhgdialog/
  * Copyright 2009-2012 LiHuiGang
  */
@@ -1606,7 +1605,7 @@ var _zIndex = function()
 lhgdialog.alert = function( content, callback, parent )
 {
 	return lhgdialog({
-		title: '警告',
+		title: 'Warnning',
 		id: 'Alert',
 		zIndex: _zIndex(),
 		icon: 'alert.gif',
@@ -1629,7 +1628,7 @@ lhgdialog.alert = function( content, callback, parent )
 lhgdialog.confirm = function( content, yes, no, parent )
 {
 	return lhgdialog({
-		title: '确认',
+		title: 'Confirm',
 		id: 'confirm.gif',
 		zIndex: _zIndex(),
 		icon: 'confirm.gif',
@@ -1659,7 +1658,7 @@ lhgdialog.prompt = function( content, yes, value, parent )
 	var input;
 	
 	return lhgdialog({
-		title: '提问',
+		title: 'Question',
 		id: 'Prompt',
 		zIndex: _zIndex(),
 		icon: 'prompt.gif',
